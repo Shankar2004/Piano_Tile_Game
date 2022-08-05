@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background-color: #92bba1;
+}
+
+#level-title {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 7rem;
+  margin:  2%;
+  color: #000000;
+  border: #000;
+  text-shadow: 3px 5px 3px rgb(92, 92, 92);
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 5px;
+  display: inline-block;
+  height: 100px;
+  width:  100px;
+  border: 10px solid #000;
+  border-radius: 20%;
+  background-color: #e9d9bae4;
+  box-shadow: 3px 10px 0px rgb(58, 58, 58);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: #000000;
+  opacity: 0.2;
+}
+
+.gameOver{
+  background-color: red;
+  opacity: 0.9;
+}
+
